@@ -75,3 +75,35 @@ li {
     height: auto;
     margin: 8px
 }
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rand-info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.i {
+    margin-inline:auto;
+    border: 2px black;
+    height: 100px;
+    width: 100px;
+}
+
+.t {
+    min-width: 130px;
+    text-align: center;
+}
+
