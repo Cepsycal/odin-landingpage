@@ -1,5 +1,13 @@
+body {
+    margin:0px;
+}
+
 .top-cont {
+    display:flex;
+    flex-direction: column;
     background-color: #1f2937;
+    padding: 4px;
+    padding-bottom: 35px;
 }
 
 .header {
@@ -11,6 +19,8 @@
 .logo {
    font-size: 24px;
    color: #f9faf8;
+   font-weight: 900;
+   font-family: 'Roboto', arial
 }
 
 .hlinks {
@@ -21,7 +31,7 @@
 }
 
 ul {
-    margin: 4px;
+    margin: 8px;
 }
 
 li {
@@ -30,4 +40,38 @@ li {
     color: #e5e7eb;
     margin-right: 16px;
 }
+.signup {
+    display: flex;
+    margin-top: 30px;
+    margin-inline: 70px;
+}
 
+.webawesome {
+    margin: 0px;
+    font-size:48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 4px;
+}
+
+.webawetext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 4px;
+}
+
+.signupbut {
+    display: inline-block;
+    background-color: #3882f6;
+    padding: 5px;
+    padding-inline: 20px;
+    border-radius: 4px;
+    color: white;
+}
+
+.h1 {
+    display: flex;
+    width:250px;
+    height: auto;
+    margin: 8px
+}
