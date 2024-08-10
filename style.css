@@ -1,4 +1,4 @@
-body {
+body{
     margin:0px;
     font-family: 'Roboto'
 }
@@ -143,4 +143,12 @@ h2 {
     border: 2px white;
 }
 
+.copy-cont {
+    background-color: #1f2937;
+    padding:15px;
+}
 
+.copyright {
+    color: white;
+    text-align: center;
+}
