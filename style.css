@@ -1,5 +1,6 @@
 body {
     margin:0px;
+    font-family: 'Roboto'
 }
 
 .top-cont {
@@ -110,25 +111,36 @@ h2 {
 
 .quote-cont {
     background-color: #e5e7eb;
+    padding: 10px;
 }
 
 .quote-text {
     font-weight: lighter;
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 300;
     color: #1f2937;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 
 .quote-aut {
     display: flex;
-    font-size: 24px;
+    font-size: 18px;
     font-weight:bolder;
-    font-family: Arial, Helvetica, sans-serif;
     justify-content: flex-end;
-    margin-right: 15px;
 }
 
+.sign-up2{
+    display: flex;
+    justify-content:space-between;
+    background-color:#3882f6;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 25px;
+}
+
+
+.signupbut.but2 {
+    border: 2px white;
+}
 
 
