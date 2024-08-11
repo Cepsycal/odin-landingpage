@@ -129,6 +129,13 @@ h2 {
     justify-content: flex-end;
 }
 
+.cont-sign2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
 .sign-up2{
     display: flex;
     justify-content:space-between;
@@ -138,12 +145,25 @@ h2 {
     padding: 25px;
 }
 
+.call {
+    color: white;
+    font-size: 12px;
+}
+
+.action {
+    padding-bottom: 3px;
+    font-weight: bolder;
+    font-size:20px;
+}
+
 
 .signupbut.but2 {
     border: 2px white;
+    margin-left: 50px;
 }
 
 .copy-cont {
+    margin-top: auto;
     background-color: #1f2937;
     padding:15px;
 }
@@ -152,3 +172,4 @@ h2 {
     color: white;
     text-align: center;
 }
+
