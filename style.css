@@ -88,8 +88,11 @@ li {
 .h1 {
     display: flex;
     width:250px;
+    height: 166.59;
+    border: solid 3px black;
     height: auto;
-    margin: 8px
+    margin: 8px;
+    flex-shrink: 0;
 }
 
 
@@ -115,7 +118,7 @@ h2 {
 
 .i {
     margin-inline:auto;
-    border: 2px black;
+    border:solid 2px black;
     min-height: 100px;
     width: 100px;
     border-radius: 20px;
