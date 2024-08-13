@@ -12,6 +12,10 @@ body{
     padding-bottom: 35px;
 }
 
+.top-cont .signup {
+    align-items: center;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -48,6 +52,8 @@ li {
     margin-inline: 70px;
     justify-content: space-evenly;
     align-items: center;
+    max-width: 810px;
+    align-self: center;
 }
 
 .sign-text{
@@ -96,7 +102,7 @@ h2 {
 .rand-info {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -116,12 +122,14 @@ h2 {
 }
 
 .t {
-    min-width: 130px;
+    max-width: 200px;
     text-align: center;
     padding: 5px;
 }
 
 .quote-cont {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
     padding: 25px;
 }
@@ -132,6 +140,8 @@ h2 {
     font-weight: 300;
     color: #1f2937;
     font-style: italic;
+    max-width: 810px;
+    align-self: center;
 }
 
 .quote-aut {
@@ -139,6 +149,7 @@ h2 {
     font-size: 18px;
     font-weight:bolder;
     justify-content: flex-end;
+    max-width: 980px;
 }
 
 .cont-sign2 {
