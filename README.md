@@ -1,2 +1,2 @@
 # odin-landingpage
-Recreating a landing page given by TOP.
+A landing page made using CSS.
